@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>jQuery UI Checkboxradio - Default functionality</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+  </script>
+</head>
+<body>
+<div class="widget">
+  <h1>Faça seu check in</h1>
+ 
+  <h2>Local</h2>
+  <fieldset>
+    <legend>Selecione a cidade: </legend>
+    <label for="radio-1">Rio de Janeiro</label>
+    <input type="radio" name="radio-1" id="radio-1">
+    <label for="radio-2">Acre</label>
+    <input type="radio" name="radio-1" id="radio-2">
+    <label for="radio-3">Chiqui Chique Bahia</label>
+    <input type="radio" name="radio-1" id="radio-3">
+  </fieldset>
+ 
+  <h2>Caixa de check in</h2>
+  <fieldset>
+    <legend>Preferencias de hoteis: </legend>
+    <label for="checkbox-1">2 Estrelas</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+    <label for="checkbox-2">3 Estrelas</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2">
+    <label for="checkbox-3">4 Estrelas</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3">
+    <label for="checkbox-4">5 Estrelas</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4">
+  </fieldset>
+ 
+  <h2>Ultimos detalhes: </h2>
+  <fieldset>
+    <legend>Tipo de dormitorio: </legend>
+    <label for="checkbox-nested-1">Solteiro
+      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+    </label>
+    <label for="checkbox-nested-2">Casal
+      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+    </label>
+    <label for="checkbox-nested-3">Familia
+      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+    </label>
+    <label for="checkbox-nested-4">Luxuoso
+      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+    </label>
+  </fieldset>
+</div>
+ 
+ 
+ 
+ 
+</body></html>
